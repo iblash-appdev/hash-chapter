@@ -9,3 +9,14 @@ person1 = gets.chomp.split
 person1 = {:name => person1.at(0),:age=> person1.at(1).to_i,:occupation => person1.at(2)}
 
 p person1
+
+#p "Enter a name, age, and occupation separated by spaces:"
+#ans = gets.chomp.split
+#name = ans.at(0)
+#age = ans.at(1)
+#occupation = ans.at(2)
+#person = Hash.new
+#person.store(:name, name)
+#person.store(:age, age)
+#person.store(:occupation, occupation)
+#p person
