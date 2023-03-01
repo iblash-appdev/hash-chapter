@@ -11,3 +11,11 @@ sample_hash = {
       }
    }
 }
+a = sample_hash.fetch(:class).fetch(:student).fetch("marks").fetch("history")
+p a
+# sample_hash.each do |key, value|
+#    puts "#{key}:"
+#    value.each do |k, v|
+#      puts "\t#{k}: #{v}" if k == "history"
+#    end
+#  end
